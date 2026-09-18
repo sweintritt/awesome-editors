@@ -210,6 +210,20 @@ let data = [
     "latest release": "26.08.01 (2026-09-07)",
     "license": "LGPLv2, MIT"
   }, {
+    "name": "VSCode",
+    "description": "Visual Studio Code is a free, open-source code editor for Windows, macOS, and Linux. Write code yourself with a powerful editor, or describe a task in natural language and let an AI agent plan, edit, and verify the work. Combine both approaches to fit how you like to work.",
+    "link": "https://code.visualstudio.com/",
+    "repository": "https://github.com/microsoft/vscode",
+    "written in": "TypeScript, JavaScript",
+    "gui or terminal": "gui",
+    "modes": "plugin",
+    "lsp": "yes",
+    "ai": "yes",
+    "plugins": "yes",
+    "first release": "2015-04-29",
+    "latest release": "1.138.0 (2026-09-16)",
+    "license": "MIT"
+  }, {
     "name": "VSCodium",
     "description": "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
     "link": "https://vscodium.com/",
@@ -218,7 +232,7 @@ let data = [
     "gui or terminal": "gui",
     "modes": "plugin",
     "lsp": "yes",
-    "ai": "plugin",
+    "ai": "yes",
     "plugins": "yes",
     "first release": "1.26.0 (2018-08-15)",
     "latest release": "1.134.06055 (2026-09-09)",
