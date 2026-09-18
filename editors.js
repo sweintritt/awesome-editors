@@ -11,7 +11,7 @@ let data = [
     "ai": "plugin",
     "plugins": "yes",
     "first release": "(1991-11-02)",
-    "latest release": "9.2.0888 (2026-07-31)",
+    "latest release": "9.2.1119 (2026-09-17)",
     "license": "GPL-compatible"
   }, {
     "name": "neovim",
@@ -25,7 +25,7 @@ let data = [
     "ai": "plugin",
     "plugins": "yes",
     "first release": "0.1.0 (2015-01-01)",
-    "latest release": "0.12.4 (2026-07-05)",
+    "latest release": "0.12.5 (2026-08-23)",
     "license": "Apachev2"
   }, {
     "name": "Emacs",
@@ -39,7 +39,7 @@ let data = [
     "ai": "plugin",
     "plugins": "yes",
     "first release": "(1984)",
-    "latest release": "31.0.91 (2026-07-23)",
+    "latest release": "31.1 (2026-08-24)",
     "license": "GPLv3"
   }, {
     "name": "micro",
@@ -193,7 +193,7 @@ let data = [
     "ai": "plugin",
     "plugins": "yes",
     "first release": "1.0 (2001-01)",
-    "latest release": "2026.2.0.1 (2026-07-27)",
+    "latest release": "2026.2.3 (2026-09-16)",
     "license": "Apachev2"
   }, {
     "name": "Kate",
@@ -207,7 +207,7 @@ let data = [
     "ai": "no",
     "plugins": "yes",
     "first release": "1.0 (2001-08-15)",
-    "latest release": "26.07.90 (2026-07-30)",
+    "latest release": "26.08.01 (2026-09-07)",
     "license": "LGPLv2, MIT"
   }, {
     "name": "VSCodium",
@@ -221,7 +221,7 @@ let data = [
     "ai": "plugin",
     "plugins": "yes",
     "first release": "1.26.0 (2018-08-15)",
-    "latest release": "1.126.04524 (2026-01-15)",
+    "latest release": "1.134.06055 (2026-09-09)",
     "license": "MIT"
   }, {
     "name": "Zed",
@@ -291,7 +291,7 @@ let data = [
     "ai": "plugin",
     "plugins": "yes",
     "first release": "0.12.0 (2020-05-19",
-    "latest release": "1.74.0 (2026-07-31)",
+    "latest release": "1.75.0 (2026-08-27)",
     "license": "EPLv2, GPLv2, MIT"
   }, {
     "name": "Atom",
@@ -325,7 +325,7 @@ let data = [
     "name": "nano",
     "description": "Small and friendly text editor. It copies the look and feel of Pico.",
     "link": "https://www.nano-editor.org/",
-    "repository": "https://https.git.savannah.gnu.org/git/nano.git/",
+    "repository": "https://cgit.git.savannah.gnu.org/cgit/nano.git",
     "written in": "C",
     "gui or terminal": "terminal",
     "modes": "no",
