@@ -9,14 +9,15 @@ def get_editors():
         content = content[:-2]
         return json.loads(content)
 
-editors = get_editors()
-
 def shields_component(value):
     value = value.replace("-", "--").replace("_", "__")
     return quote(value, safe="")
 
+editors = get_editors()
+editors = sorted(editors, key=lambda k: k['name'].lower(), reverse=False, )
 table = "|Name|Description|License|\n"
 table += "|--|--|--|\n"
+
 for editor in editors:
     license = editor["license"]
     badge_license = shields_component(license)
