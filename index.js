@@ -16,6 +16,9 @@ function createTable() {
     table.appendChild(tableHead);
     table.appendChild(tableBody);
 
+    // Sort by name
+    data.sort((a, b) => a.name.localeCompare(b.name));
+
     // Creating table head
     let row = tableHead.insertRow();
     Object.keys(data[0]).forEach((key) => {
